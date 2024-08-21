@@ -8,10 +8,10 @@
 ColPheT is an embeddable interactive command-line visualization component developed by the 
  [Integrative Genomics Viewer (IGV)](https://igv.org) team. 
 
-## Citing igv.js
+## Citing ColPheT
 
 T. Halder, , Sk. Arif Ahmed, J. Hira, ColPheT: an embeddable python 
-implementation of the Integrative command-line tool , Bioinformatics, Volume 39, Issue 1, January 2023, 
+implementation of the Integrative command-line tool , Bioinformatics,,  ,  , 
 , https://doi.org/**/bioinformatics/
  
 Below are examples and a quickstart guide.  See the [developer documentation](https://igv.org/doc/igvjs) for more documentation.  
