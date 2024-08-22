@@ -6,7 +6,7 @@
 [![](https://data.jsdelivr.com/v1/package/npm/igv/badge)](https://www.jsdelivr.com/package/npm/igv) -->
 
 ColPheT is an embeddable interactive command-line visualization component developed by the 
- [Integrative Genomics Viewer (IGV)](https://igv.org) team. 
+ [](https://.org) team. 
 
 ## Citing ColPheT
 
@@ -34,66 +34,50 @@ Below are examples and a quickstart guide.  See the [developer documentation](ht
 
   -->
 # Quickstart
+## Workflow
 
-## Installation
+<p align="center">
+      <img src="assets/assiworkflow/1.png" width="70%"/>
+</p>
+
+# Prerequisites
 ColPheT consists of a single python-based exe file with no external dependencies.  
+Before you begin, ensure you have met the following requirements:
 
-<!-- Pre-built files for script include, AMD, or CJS module systems (igv.min.js) and an ES6 module (igv.esm.min.js)
-can be downloaded from [https://cdn.jsdelivr.net/npm/igv@3.0.2/dist/](https://cdn.jsdelivr.net/npm/igv@3.0.2/dist/). 
+- **Operating System:** Linux, macOS, or Windows
+- **Python:** Version 3.8 or higher
+- **pip:** Python package manager (comes with Python 3)
+- **Git:** Version control system for cloning the repository
 
-To import igv as an ES6 module
+### Installation Instructions
 
-```javascript
-import igv from "https://cdn.jsdelivr.net/npm/igv@3.0.2/dist/igv.esm.min.js"
-``` 
+1. **Python:**
+   - Install Python 3.8 or higher from the [official website](https://www.python.org/downloads/).
+   - Verify the installation:
+     ```bash
+     python3 --version
+     ```
 
-Or as a script include (defines the "igv" global)
+### Additional Configuration
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/igv@3.0.2/dist/igv.min.js"></script>
-```   
- 
-Alternatively you can install with npm  
- 
- ```npm install igv```
+- **Environment Variables:**
+  - Set up the following environment variables:
+    <!-- - `API_KEY`: Your API key for accessing the external service. -->
+    <!-- - `DB_CONNECTION_STRING`: The connection string for your database. -->
 
-and source the appropriate file for your module system (igv.min.js or igv.esm.min.js)  in node_modules/igv/dist.
- -->
+### Optional Prerequisites
+
+- **Docker:** Required if you plan to run the application in a containerized environment.
+- **Redis:** Required if you want to enable caching features.
+
+
+
 
 ## Usage
 
-<!-- To create an igv.js ***browser*** supply a container div 
-and an initial configuration defining the reference genome, initial tracks, and other state to the 
-function ```igv.createBrowser(div, config)```.  
 
-This function returns a promise for an igv.Browser object which can used to control the browser.  For example, to open
-a browser on a single alignment track opened at a specific locus:
 
-```
-      var igvDiv = document.getElementById("igv-div");
-      var options =
-        {
-            genome: "hg38",
-            locus: "chr8:127,736,588-127,739,371",
-            tracks: [
-                {
-                    "name": "HG00103",
-                    "url": "https://s3.amazonaws.com/1000genomes/data/HG00103/alignment/HG00103.alt_bwamem_GRCh38DH.20150718.GBR.low_coverage.cram",
-                    "indexURL": "https://s3.amazonaws.com/1000genomes/data/HG00103/alignment/HG00103.alt_bwamem_GRCh38DH.20150718.GBR.low_coverage.cram.crai",
-                    "format": "cram"
-                }
-            ]
-        };
-
-        igv.createBrowser(igvDiv, options)
-                .then(function (browser) {
-                    console.log("Created IGV browser");
-                })
-```
-
-For more details see the [Wiki](https://github.com/igvteam/igv.js/wiki) for full documentation of the API. -->
-
-## Development
+## Development - Compile from Original Packages
 
 ### Requirements
 
@@ -131,7 +115,28 @@ npm run test
 
 ### Examples
 
+Some results
+<table>
+    <tr>
+        <td> II </td>
+        <td>III </td>
+  </tr>
+  <tr>
+    <td><img src="/assets/results/images/or_190.png" alt="Assignment 2 write" width="400"></td>
+    <td><img src="/assets/results/images/bn_190.png" alt="Assignment 2 read " width="400"></td>
+  </tr>
 
+  <tr>
+    <td><img src="/assets/results/images/cs_190.png" alt="Assignment 2 write" width="400"></td>
+    <td><img src="/assets/results/images/tr_190.png" alt="Assignment 2 read " width="400"></td>
+  </tr>
+  
+</table>
+
+<video width="600" controls>
+  <source src="assets/results/video/test.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 # License
