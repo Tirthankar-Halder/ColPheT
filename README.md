@@ -122,23 +122,22 @@ Some results
         <td>Binary Slide </td>
   </tr>
   <tr>
-    <td><img src="/assets/results/images/or_190.png" alt="Assignment 2 write" width="400"></td>
-    <td><img src="/assets/results/images/bn_190.png" alt="Assignment 2 read " width="400"></td>
+    <td><img src="/assets/results/images/or_190.png" alt="Slide" width="400"></td>
+    <td><img src="/assets/results/images/bn_190.png" alt="Slide" width="400"></td>
   </tr>
     <tr>
         <td> Segmented Slide </td>
         <td>Tracked Slide </td>
   </tr>
   <tr>
-    <td><img src="/assets/results/images/cs_190.png" alt="Assignment 2 write" width="400"></td>
-    <td><img src="/assets/results/images/tr_190.png" alt="Assignment 2 read " width="400"></td>
+    <td><img src="/assets/results/images/cs_190.png" alt="Slide" width="400"></td>
+    <td><img src="/assets/results/images/tr_190.png" alt="Slide" width="400"></td>
   </tr>
   
 </table>
 
 <video width="600" controls>
-  <source src="assets/results/video/test.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="https://github.com/Tirthankar-Halder/ColPheT/blob/main/assets/results/video/test.mp4" type="video/mp4">
 </video>
 
 
