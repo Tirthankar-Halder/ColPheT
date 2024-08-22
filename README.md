@@ -135,14 +135,14 @@ Some results
   </tr>
   
 </table>
-
+<!-- 
 <video width="600" controls>
   <source src="./assets/results/video/test_90.avi" type="video/avi">
-</video>
+</video> -->
 
-[Download the video](./assets/results/video/test_90.mp4)
+![Demo](/assets/results/video/test_90.gif)
 
-
+[Download the full video](./assets/results/video/test_90.mp4)
 # License
 
 
