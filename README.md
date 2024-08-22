@@ -89,39 +89,61 @@ git clone https://github.com/Tirthankar-Halder/ColPheT.git
 
 Building ColPheT and running the examples require Windows.  Other os environments will probably work but have not been tested.  
 
-Windows users can use [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+ColPheT provides customisable packages for modification as per requirement.
 
 ### Building
-<!-- 
-Building igv.js and running the examples requires [node.js](https://nodejs.org/).
-
-
-```  
-git clone https://github.com/igvteam/igv.js.git
-cd igv.js
-npm install
-npm run build
+```bash
+git clone https://github.com/Tirthankar-Halder/ColPheT-packages.git
 ```
 
-This creates a dist folder with the following files
 
-* igv.js - UMDS file for script include, AMD, or CJS modules.  A script include will define an "igv" global.
-* igv.min.js - minified version of igv.js
-* igv.esm.js --  ES6 module 
-* igv.esm.min.js --  minified version of igv.esm.js -->
+This creates a dist folder with the following files structure:
+```
+ BacColonyV3.mp4
+├── Classification
+│   ├── classification.ipynb
+│   └── Logistic Regression Practical Implementation.ipynb
+├── classification.ipynb
+├── ColpheT.py
+├── features.pkl
+├── MVI_5585.MP4
+├── MVI_66245.MP4
+├── P3.MP4
+├── packages
+│   ├── BoxTracker.py
+│   ├── ColpheTN.py
+│   ├── detGenerater.py
+│   ├── export.py
+│   ├── func.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── BoxTracker.cpython-39.pyc
+│   │   ├── ColpheTN.cpython-39.pyc
+│   │   ├── detGenerater.cpython-39.pyc
+│   │   ├── export.cpython-39.pyc
+│   │   ├── func.cpython-39.pyc
+│   │   ├── __init__.cpython-39.pyc
+│   │   └── tracker.cpython-39.pyc
+│   └── tracker.py
+├── pklGenerator.ipynb
+├── prediction.ipynb
+├── RES_MH_Control_enhanced.mp4
+├── ResOrginal.mp4
+├── ResSpecial.mp4
+├── starter.py
+├── threshValGenerator.ipynb
+└── Vanco_Res_enhanced.mp4
+
+
+```
+### Compilation
 
 ### Tests
 
-<!-- To run the tests from the command line
-
-```
-npm run test
-```
- -->
 
 ### Examples
 
-Some results
+Some sample results:
 <table>
     <tr>
         <td> Original Slide </td>
