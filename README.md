@@ -140,7 +140,7 @@ Some results
   <source src="./assets/results/video/test_90.avi" type="video/avi">
 </video>
 
-[Download the video](./assets/results/video/test.mp4)
+[Download the video](./assets/results/video/test_90.mp4)
 
 
 # License
