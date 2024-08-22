@@ -118,14 +118,17 @@ npm run test
 Some results
 <table>
     <tr>
-        <td> II </td>
-        <td>III </td>
+        <td> Original Slide </td>
+        <td>Binary Slide </td>
   </tr>
   <tr>
     <td><img src="/assets/results/images/or_190.png" alt="Assignment 2 write" width="400"></td>
     <td><img src="/assets/results/images/bn_190.png" alt="Assignment 2 read " width="400"></td>
   </tr>
-
+    <tr>
+        <td> Segmented Slide </td>
+        <td>Tracked Slide </td>
+  </tr>
   <tr>
     <td><img src="/assets/results/images/cs_190.png" alt="Assignment 2 write" width="400"></td>
     <td><img src="/assets/results/images/tr_190.png" alt="Assignment 2 read " width="400"></td>
