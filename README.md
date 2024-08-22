@@ -37,7 +37,7 @@ Below are examples and a quickstart guide.  See the [developer documentation](ht
 ## Workflow
 
 <p align="center">
-      <img src="assets/assiworkflow/1.png" width="70%"/>
+      <img src="/assets/assets/workflow/1.png" width="70%"/>
 </p>
 
 # Prerequisites
@@ -137,8 +137,10 @@ Some results
 </table>
 
 <video width="600" controls>
-  <source src="https://github.com/Tirthankar-Halder/ColPheT/blob/main/assets/results/video/test.mp4" type="video/mp4">
+  <source src="./assets/results/video/test_90.avi" type="video/avi">
 </video>
+
+[Download the video](./assets/results/video/test.mp4)
 
 
 # License
