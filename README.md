@@ -75,6 +75,12 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
+### Clone the GIT repositorty
+```bash
+git clone https://github.com/Tirthankar-Halder/ColPheT.git
+```
+
+### Run the program
 
 
 ## Development - Compile from Original Packages
